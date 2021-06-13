@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29EAEED259AEBBA00141744 /* TouchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F29EAEEC259AEBBA00141744 /* TouchInfo.m */; };
+		F2AE7ADC2599EC1D00666011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE7ADB2599EC1D00666011 /* AppDelegate.m */; };
+		F2AE7ADF2599EC1D00666011 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE7ADE2599EC1D00666011 /* SceneDelegate.m */; };
+		F2AE7AE22599EC1D00666011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE7AE12599EC1D00666011 /* ViewController.m */; };
+		F2AE7AE52599EC1D00666011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AE7AE32599EC1D00666011 /* Main.storyboard */; };
+		F2AE7AE72599EC1E00666011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AE7AE62599EC1E00666011 /* Assets.xcassets */; };
+		F2AE7AEA2599EC1E00666011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AE7AE82599EC1E00666011 /* LaunchScreen.storyboard */; };
+		F2AE7AED2599EC1E00666011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE7AEC2599EC1E00666011 /* main.m */; };
+		F2AE7AF72599EC1F00666011 /* DemoGestureTeleObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE7AF62599EC1F00666011 /* DemoGestureTeleObjCTests.m */; };
+		F2AE7B022599EC1F00666011 /* DemoGestureTeleObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE7B012599EC1F00666011 /* DemoGestureTeleObjCUITests.m */; };
+		F2AE7B152599EC4100666011 /* TapLongTapOrDoubleTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE7B142599EC4100666011 /* TapLongTapOrDoubleTapGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2AE7AF32599EC1F00666011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2AE7ACF2599EC1D00666011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2AE7AD62599EC1D00666011;
+			remoteInfo = DemoGestureTeleObjC;
+		};
+		F2AE7AFE2599EC1F00666011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2AE7ACF2599EC1D00666011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2AE7AD62599EC1D00666011;
+			remoteInfo = DemoGestureTeleObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F29EAEEB259AEBBA00141744 /* TouchInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchInfo.h; sourceTree = "<group>"; };
+		F29EAEEC259AEBBA00141744 /* TouchInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchInfo.m; sourceTree = "<group>"; };
+		F29EAEEE259B389800141744 /* TapLongTapOrDoubleTapGestureRecognizer+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapLongTapOrDoubleTapGestureRecognizer+Private.h"; sourceTree = "<group>"; };
+		F2AE7AD72599EC1D00666011 /* DemoGestureTeleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGestureTeleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AE7ADA2599EC1D00666011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2AE7ADB2599EC1D00666011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2AE7ADD2599EC1D00666011 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F2AE7ADE2599EC1D00666011 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F2AE7AE02599EC1D00666011 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2AE7AE12599EC1D00666011 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2AE7AE42599EC1D00666011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2AE7AE62599EC1E00666011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2AE7AE92599EC1E00666011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2AE7AEB2599EC1E00666011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AE7AEC2599EC1E00666011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2AE7AF22599EC1F00666011 /* DemoGestureTeleObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGestureTeleObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AE7AF62599EC1F00666011 /* DemoGestureTeleObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGestureTeleObjCTests.m; sourceTree = "<group>"; };
+		F2AE7AF82599EC1F00666011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AE7AFD2599EC1F00666011 /* DemoGestureTeleObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGestureTeleObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AE7B012599EC1F00666011 /* DemoGestureTeleObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGestureTeleObjCUITests.m; sourceTree = "<group>"; };
+		F2AE7B032599EC1F00666011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AE7B132599EC4100666011 /* TapLongTapOrDoubleTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapLongTapOrDoubleTapGestureRecognizer.h; sourceTree = "<group>"; };
+		F2AE7B142599EC4100666011 /* TapLongTapOrDoubleTapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapLongTapOrDoubleTapGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2AE7AD42599EC1D00666011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE7AEF2599EC1F00666011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE7AFA2599EC1F00666011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29EAEEA259AEB9800141744 /* Private Class */ = {
+			isa = PBXGroup;
+			children = (
+				F29EAEEB259AEBBA00141744 /* TouchInfo.h */,
+				F29EAEEC259AEBBA00141744 /* TouchInfo.m */,
+			);
+			path = "Private Class";
+			sourceTree = "<group>";
+		};
+		F2AE7ACE2599EC1D00666011 = {
+			isa = PBXGroup;
+			children = (
+				F2AE7AD92599EC1D00666011 /* DemoGestureTeleObjC */,
+				F2AE7AF52599EC1F00666011 /* DemoGestureTeleObjCTests */,
+				F2AE7B002599EC1F00666011 /* DemoGestureTeleObjCUITests */,
+				F2AE7AD82599EC1D00666011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2AE7AD82599EC1D00666011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE7AD72599EC1D00666011 /* DemoGestureTeleObjC.app */,
+				F2AE7AF22599EC1F00666011 /* DemoGestureTeleObjCTests.xctest */,
+				F2AE7AFD2599EC1F00666011 /* DemoGestureTeleObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2AE7AD92599EC1D00666011 /* DemoGestureTeleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE7B122599EC2800666011 /* CustomGesture */,
+				F2AE7ADA2599EC1D00666011 /* AppDelegate.h */,
+				F2AE7ADB2599EC1D00666011 /* AppDelegate.m */,
+				F2AE7ADD2599EC1D00666011 /* SceneDelegate.h */,
+				F2AE7ADE2599EC1D00666011 /* SceneDelegate.m */,
+				F2AE7AE02599EC1D00666011 /* ViewController.h */,
+				F2AE7AE12599EC1D00666011 /* ViewController.m */,
+				F2AE7AE32599EC1D00666011 /* Main.storyboard */,
+				F2AE7AE62599EC1E00666011 /* Assets.xcassets */,
+				F2AE7AE82599EC1E00666011 /* LaunchScreen.storyboard */,
+				F2AE7AEB2599EC1E00666011 /* Info.plist */,
+				F2AE7AEC2599EC1E00666011 /* main.m */,
+			);
+			path = DemoGestureTeleObjC;
+			sourceTree = "<group>";
+		};
+		F2AE7AF52599EC1F00666011 /* DemoGestureTeleObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE7AF62599EC1F00666011 /* DemoGestureTeleObjCTests.m */,
+				F2AE7AF82599EC1F00666011 /* Info.plist */,
+			);
+			path = DemoGestureTeleObjCTests;
+			sourceTree = "<group>";
+		};
+		F2AE7B002599EC1F00666011 /* DemoGestureTeleObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE7B012599EC1F00666011 /* DemoGestureTeleObjCUITests.m */,
+				F2AE7B032599EC1F00666011 /* Info.plist */,
+			);
+			path = DemoGestureTeleObjCUITests;
+			sourceTree = "<group>";
+		};
+		F2AE7B122599EC2800666011 /* CustomGesture */ = {
+			isa = PBXGroup;
+			children = (
+				F29EAEEA259AEB9800141744 /* Private Class */,
+				F2AE7B132599EC4100666011 /* TapLongTapOrDoubleTapGestureRecognizer.h */,
+				F2AE7B142599EC4100666011 /* TapLongTapOrDoubleTapGestureRecognizer.m */,
+				F29EAEEE259B389800141744 /* TapLongTapOrDoubleTapGestureRecognizer+Private.h */,
+			);
+			path = CustomGesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2AE7AD62599EC1D00666011 /* DemoGestureTeleObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AE7B062599EC1F00666011 /* Build configuration list for PBXNativeTarget "DemoGestureTeleObjC" */;
+			buildPhases = (
+				F2AE7AD32599EC1D00666011 /* Sources */,
+				F2AE7AD42599EC1D00666011 /* Frameworks */,
+				F2AE7AD52599EC1D00666011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoGestureTeleObjC;
+			productName = DemoGestureTeleObjC;
+			productReference = F2AE7AD72599EC1D00666011 /* DemoGestureTeleObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2AE7AF12599EC1F00666011 /* DemoGestureTeleObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AE7B092599EC1F00666011 /* Build configuration list for PBXNativeTarget "DemoGestureTeleObjCTests" */;
+			buildPhases = (
+				F2AE7AEE2599EC1F00666011 /* Sources */,
+				F2AE7AEF2599EC1F00666011 /* Frameworks */,
+				F2AE7AF02599EC1F00666011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2AE7AF42599EC1F00666011 /* PBXTargetDependency */,
+			);
+			name = DemoGestureTeleObjCTests;
+			productName = DemoGestureTeleObjCTests;
+			productReference = F2AE7AF22599EC1F00666011 /* DemoGestureTeleObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2AE7AFC2599EC1F00666011 /* DemoGestureTeleObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AE7B0C2599EC1F00666011 /* Build configuration list for PBXNativeTarget "DemoGestureTeleObjCUITests" */;
+			buildPhases = (
+				F2AE7AF92599EC1F00666011 /* Sources */,
+				F2AE7AFA2599EC1F00666011 /* Frameworks */,
+				F2AE7AFB2599EC1F00666011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2AE7AFF2599EC1F00666011 /* PBXTargetDependency */,
+			);
+			name = DemoGestureTeleObjCUITests;
+			productName = DemoGestureTeleObjCUITests;
+			productReference = F2AE7AFD2599EC1F00666011 /* DemoGestureTeleObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2AE7ACF2599EC1D00666011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F2AE7AD62599EC1D00666011 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F2AE7AF12599EC1F00666011 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F2AE7AD62599EC1D00666011;
+					};
+					F2AE7AFC2599EC1F00666011 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F2AE7AD62599EC1D00666011;
+					};
+				};
+			};
+			buildConfigurationList = F2AE7AD22599EC1D00666011 /* Build configuration list for PBXProject "DemoGestureTeleObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2AE7ACE2599EC1D00666011;
+			productRefGroup = F2AE7AD82599EC1D00666011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2AE7AD62599EC1D00666011 /* DemoGestureTeleObjC */,
+				F2AE7AF12599EC1F00666011 /* DemoGestureTeleObjCTests */,
+				F2AE7AFC2599EC1F00666011 /* DemoGestureTeleObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2AE7AD52599EC1D00666011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE7AEA2599EC1E00666011 /* LaunchScreen.storyboard in Resources */,
+				F2AE7AE72599EC1E00666011 /* Assets.xcassets in Resources */,
+				F2AE7AE52599EC1D00666011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE7AF02599EC1F00666011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE7AFB2599EC1F00666011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AE7AD32599EC1D00666011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE7AE22599EC1D00666011 /* ViewController.m in Sources */,
+				F2AE7ADC2599EC1D00666011 /* AppDelegate.m in Sources */,
+				F2AE7AED2599EC1E00666011 /* main.m in Sources */,
+				F29EAEED259AEBBA00141744 /* TouchInfo.m in Sources */,
+				F2AE7B152599EC4100666011 /* TapLongTapOrDoubleTapGestureRecognizer.m in Sources */,
+				F2AE7ADF2599EC1D00666011 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE7AEE2599EC1F00666011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE7AF72599EC1F00666011 /* DemoGestureTeleObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE7AF92599EC1F00666011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE7B022599EC1F00666011 /* DemoGestureTeleObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2AE7AF42599EC1F00666011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2AE7AD62599EC1D00666011 /* DemoGestureTeleObjC */;
+			targetProxy = F2AE7AF32599EC1F00666011 /* PBXContainerItemProxy */;
+		};
+		F2AE7AFF2599EC1F00666011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2AE7AD62599EC1D00666011 /* DemoGestureTeleObjC */;
+			targetProxy = F2AE7AFE2599EC1F00666011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2AE7AE32599EC1D00666011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AE7AE42599EC1D00666011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2AE7AE82599EC1E00666011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AE7AE92599EC1E00666011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2AE7B042599EC1F00666011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2AE7B052599EC1F00666011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2AE7B072599EC1F00666011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDWJHQ3A4;
+				INFOPLIST_FILE = DemoGestureTeleObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duydl.DemoGestureTeleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2AE7B082599EC1F00666011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDWJHQ3A4;
+				INFOPLIST_FILE = DemoGestureTeleObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duydl.DemoGestureTeleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2AE7B0A2599EC1F00666011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDWJHQ3A4;
+				INFOPLIST_FILE = DemoGestureTeleObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duydl.DemoGestureTeleObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGestureTeleObjC.app/DemoGestureTeleObjC";
+			};
+			name = Debug;
+		};
+		F2AE7B0B2599EC1F00666011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDWJHQ3A4;
+				INFOPLIST_FILE = DemoGestureTeleObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duydl.DemoGestureTeleObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGestureTeleObjC.app/DemoGestureTeleObjC";
+			};
+			name = Release;
+		};
+		F2AE7B0D2599EC1F00666011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDWJHQ3A4;
+				INFOPLIST_FILE = DemoGestureTeleObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duydl.DemoGestureTeleObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoGestureTeleObjC;
+			};
+			name = Debug;
+		};
+		F2AE7B0E2599EC1F00666011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDWJHQ3A4;
+				INFOPLIST_FILE = DemoGestureTeleObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duydl.DemoGestureTeleObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoGestureTeleObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2AE7AD22599EC1D00666011 /* Build configuration list for PBXProject "DemoGestureTeleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AE7B042599EC1F00666011 /* Debug */,
+				F2AE7B052599EC1F00666011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AE7B062599EC1F00666011 /* Build configuration list for PBXNativeTarget "DemoGestureTeleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AE7B072599EC1F00666011 /* Debug */,
+				F2AE7B082599EC1F00666011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AE7B092599EC1F00666011 /* Build configuration list for PBXNativeTarget "DemoGestureTeleObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AE7B0A2599EC1F00666011 /* Debug */,
+				F2AE7B0B2599EC1F00666011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AE7B0C2599EC1F00666011 /* Build configuration list for PBXNativeTarget "DemoGestureTeleObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AE7B0D2599EC1F00666011 /* Debug */,
+				F2AE7B0E2599EC1F00666011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2AE7ACF2599EC1D00666011 /* Project object */;
+}
